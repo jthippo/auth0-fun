@@ -24,6 +24,10 @@ function App() {
 
       <h1>Auth0 Demo</h1>
       <p>It is logging in and also out</p>
+
+      {user?.email === "hellomikefoster@gmail.com" && (
+        <a href="https://google.com">You are logged in so go here now</a>
+      )}
     </>
   );
 }
